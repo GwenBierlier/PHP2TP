@@ -210,7 +210,7 @@
 	
 							<li>
 								<input class="input-qcm" type="radio" id="qcm2" name="qcm" value="qcm2" required <?php if( $p['qcm']=='qcm2'){ echo 'checked="checked"';} ?>>
-								<label for="qcm2" class="non">Pour apprendre la vie.</label>
+								<label for="qcm2" class="non">Pour me faire des amis.</label>
 							</li>
 	
 							<li>
