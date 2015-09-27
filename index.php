@@ -45,7 +45,7 @@
 
 			function show_qcm($qcm) {
 
-				echo "<div class='div-feedback'><p class='error'>Désolé, mais tu n'as pas compris ce qu'est le baptême. Revois tes motivations et recommence.</p></div>" ;
+				echo "<div class='div-feedback'><p class='error'>Désolé, mais tu n'as pas compris ce qu'est le baptême. Revois tes priorités et recommence.</p></div>" ;
 
 			}
 			
