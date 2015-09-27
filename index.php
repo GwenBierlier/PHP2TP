@@ -5,11 +5,11 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0" />
-		<title>PHP2TP : Inscris-toi au Cercle ∙ PHP</title>
+		<title>PHP2TP : Inscris-toi au Cercle ! ∙ PHP</title>
 
 		<?php
-			include('opengraph.php') ;
-			include('favicon.php') ; 
+			include('opengraph.inc.php') ;
+			include('favicon.inc.php') ;
 		
 			include('Mobile_Detect.php') ;
 
@@ -184,15 +184,15 @@
 						<legend class="form--block">Ta date de naissance <abbr value="requis">*</abbr></legend>
 	
 						<select id="date" name="jour" >
-							<?php include('jour.php'); ?>
+							<?php include('jour.inc.php'); ?>
 						</select>
 	
 						<select id="date" name="mois" >
-							<?php include('mois.php'); ?> 	
+							<?php include('mois.inc.php'); ?> 	
 	 					</select>
 	
 						<select id="date" name="annee" >
-							<?php include('annee.php'); ?>
+							<?php include('annee.inc.php'); ?>
 						</select>
 	
 					</fieldset>
@@ -232,7 +232,7 @@
 
 		</div>
 
-		<?php include('footer.php') ; ?>
+		<?php include('footer.inc.php') ; ?>
 
 	</body>
 
